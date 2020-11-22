@@ -1,0 +1,79 @@
+body{
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: auto;
+  }
+  
+  h1 {
+    font-size: 6vw;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    grid-template-row: auto;
+  }
+  
+  .container > * {
+    border: solid 1px black;
+  }
+  
+  .qualifizierung {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100px;
+    background: aqua;
+  }
+  
+  .team { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: aqua;
+  }
+  
+  .a {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  
+  .b {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  
+  .c {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  
+  .d {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    grid-row-start: 2;
+    grid-row-end: 100000;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  
+  .unstyled-list { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
